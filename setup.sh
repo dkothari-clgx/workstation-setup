@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-basedir=$(PWD)
+BASEDIR=$(dirname "$0")
 
 #Load Installation Functions
-source ./basedir/install.sh
+source ./$BASEDIR/install.sh
 
 #Install Tools
 install_homebrew
