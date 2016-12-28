@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
-source install.sh
+basedir=$(PWD)
 
+#Load Installation Functions
+source ./basedir/install.sh
+
+#Install Tools
 install_homebrew
 install_git
 install_java
