@@ -30,4 +30,6 @@ This is my workstation-setup for Mac only at the moment.
 1. Error Checking and Resolution
 2. Configurations like vim
 3. PCFDev Automated Download
-4. Basic Configuration (smaller amount of installations)
+4. Basic Installation & Configuration (smaller amount of installations)
+5. Make Idempotent
+6. One-time Execution (Stop typing in Passwords)
