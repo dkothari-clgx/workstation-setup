@@ -26,7 +26,7 @@ function install_chrome() {
 function install_cloudfoundry_tools() {
     brew tap cloudfoundry/tap
     brew install cf-cli
-    gem install cf-uaac
+    sudo gem install cf-uaac
     #need to figure how to automate pcfdev download
     echo "Please go to https://network.pivotal.io/ to download PCFDev"
 }
