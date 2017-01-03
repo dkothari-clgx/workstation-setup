@@ -8,6 +8,7 @@ source ./$BASEDIR/install.sh
 #Install Tools
 install_homebrew
 install_git
+install_commandline_tools
 install_java
 install_chrome
 install_virtualization

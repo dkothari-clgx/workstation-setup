@@ -1,6 +1,9 @@
 # Workstation-Setup
 This is my workstation-setup for Mac only at the moment.
 
+## Run-IT
+    ```./setup.sh```
+
 ##Installations
 
 1. Homebrew
@@ -25,6 +28,7 @@ This is my workstation-setup for Mac only at the moment.
 20. Slack
 21. Ansible
 22. Vagrant-Puppet
+23. JQ
 
 ##ToDos:
 1. Error Checking and Resolution

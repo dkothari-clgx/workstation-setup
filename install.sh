@@ -54,3 +54,7 @@ function cloud_management_tools() {
     brew install ansible
     vagrant plugin install vagrant-puppet-install
 }
+
+function install_commandline_tools() {
+    brew install jq
+}
