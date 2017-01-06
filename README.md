@@ -2,7 +2,9 @@
 This is my workstation-setup for Mac only at the moment.
 
 ## Run-IT
-    ```./setup.sh```
+    ~~~ sh
+    ./setup.sh
+    ~~~
 
 ##Installations
 
