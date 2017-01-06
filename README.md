@@ -1,8 +1,7 @@
 # Workstation-Setup
 This is my workstation-setup for Mac only at the moment.
 
-## Run-IT
-    
+## Run-it
     ./setup.sh
    
 
