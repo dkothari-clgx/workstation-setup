@@ -33,7 +33,7 @@ This is my workstation-setup for Mac only at the moment.
 
 ##ToDos:
 1. Error Checking and Resolution
-2. Add Configurations like vim
+2. Add rc Configurations
 3. PCFDev Automated Download
 4. Basic Installation & Configuration (smaller amount of installations)
 5. Make Idempotent
