@@ -38,3 +38,4 @@ This is my workstation-setup for Mac only at the moment.
 4. Basic Installation & Configuration (smaller amount of installations)
 5. Make Idempotent
 6. One-time Execution (Stop typing in Passwords)
+7. Auto-Updates
