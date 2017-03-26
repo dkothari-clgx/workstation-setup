@@ -43,6 +43,7 @@ function install_utilities() {
     brew cask install flycut
     brew cask install iterm2
     brew cask install shiftit
+    brew cask install flux
 }
 
 function install_communication_tools() {

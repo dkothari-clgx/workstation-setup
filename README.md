@@ -29,6 +29,7 @@ This is my workstation-setup for Mac only at the moment.
 21. Ansible
 22. Vagrant-Puppet
 23. JQ
+24. Flux
 
 ##ToDos:
 1. Error Checking and Resolution
