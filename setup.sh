@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-BASEDIR=$(dirname "$0")
+BASEDIR="$( cd "$( dirname "$0" )" && pwd)"
 
 #Load Installation Functions
 source ./$BASEDIR/install.sh

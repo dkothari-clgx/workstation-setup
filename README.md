@@ -1,8 +1,9 @@
 # Workstation-Setup
 This is my workstation-setup for Mac only at the moment.
 
-## Run-IT
-    ```./setup.sh```
+## Run-it
+    ./setup.sh
+   
 
 ##Installations
 
@@ -33,8 +34,9 @@ This is my workstation-setup for Mac only at the moment.
 
 ##ToDos:
 1. Error Checking and Resolution
-2. Configurations like vim
+2. Add rc Configurations
 3. PCFDev Automated Download
 4. Basic Installation & Configuration (smaller amount of installations)
 5. Make Idempotent
 6. One-time Execution (Stop typing in Passwords)
+7. Auto-Updates
