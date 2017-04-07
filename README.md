@@ -5,7 +5,7 @@ This is my workstation-setup for Mac only at the moment.
     ./setup.sh
    
 
-##Installations
+## Installations
 
 1. Homebrew
 2. Git (a bit redundant)
@@ -33,7 +33,7 @@ This is my workstation-setup for Mac only at the moment.
 24. Flux
 25. Terraform
 
-##ToDos:
+## ToDos:
 1. Error Checking and Resolution
 2. Add rc Configurations
 3. PCFDev Automated Download
