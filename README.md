@@ -31,6 +31,7 @@ This is my workstation-setup for Mac only at the moment.
 22. Vagrant-Puppet
 23. JQ
 24. Flux
+25. Terraform
 
 ##ToDos:
 1. Error Checking and Resolution
