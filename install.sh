@@ -33,6 +33,7 @@ function install_cloudfoundry_tools() {
 
 function install_virtualization() {
     brew cask install docker
+    brew install terraform
     brew cask install virtualbox
     brew cask install vagrant
     vagrant plugin install vagrant-vbguest
