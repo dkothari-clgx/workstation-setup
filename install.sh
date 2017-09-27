@@ -8,6 +8,9 @@ function install_homebrew() {
 
 function install_git() {
     brew install git
+    git clone --depth=1 https://github.com/Bash-it/bash-it.git
+    ~/.bash_it
+    ~/.bash_it/install.sh
 }
 
 function install_java() {
