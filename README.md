@@ -32,6 +32,7 @@ This is my workstation-setup for Mac only at the moment.
 23. JQ
 24. Flux
 25. Terraform
+26. Bash-it
 
 ## ToDos:
 1. Error Checking and Resolution
@@ -41,5 +42,4 @@ This is my workstation-setup for Mac only at the moment.
 5. Make Idempotent
 6. One-time Execution (Stop typing in Passwords)
 7. Auto-Updates
-8. Add [bash-it](https://github.com/Bash-it/bash-it)
-9. Add [Git Aliases](https://github.com/dirkjot/computer-setup) 
+8. Add [Git Aliases](https://github.com/dirkjot/computer-setup) 
