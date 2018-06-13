@@ -1,9 +1,14 @@
 #!/usr/bin/env bash
+set -e 
+echo "Caching password..."
+sudo -K
+sudo true;
+clear
 
 BASEDIR="$( cd "$( dirname "$0" )" && pwd)"
 
 #Load Installation Functions
-source ./$BASEDIR/install.sh
+source $BASEDIR/install.sh
 
 #Install Tools
 install_homebrew

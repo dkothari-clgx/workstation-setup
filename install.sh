@@ -30,8 +30,6 @@ function install_cloudfoundry_tools() {
     brew tap cloudfoundry/tap
     brew install cf-cli
     sudo gem install cf-uaac
-    #need to figure how to automate pcfdev download
-    echo "Please go to https://network.pivotal.io/ to download PCFDev"
 }
 
 function install_virtualization() {
@@ -47,11 +45,9 @@ function install_utilities() {
     brew cask install flycut
     brew cask install iterm2
     brew cask install shiftit
-    brew cask install flux
 }
 
 function install_communication_tools() {
-    brew cask install screenhero
     brew cask install slack
 }
 

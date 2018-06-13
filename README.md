@@ -40,6 +40,5 @@ This is my workstation-setup for Mac only at the moment.
 3. PCFDev Automated Download
 4. Basic Installation & Configuration (smaller amount of installations)
 5. Make Idempotent
-6. One-time Execution (Stop typing in Passwords)
-7. Auto-Updates
-8. Add [Git Aliases](https://github.com/dirkjot/computer-setup) 
+6. Auto-Updates
+7. Add [Git Aliases](https://github.com/dirkjot/computer-setup) 
