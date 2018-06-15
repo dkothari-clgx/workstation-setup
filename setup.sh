@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -e 
 echo "Caching password..."
 sudo -K
 sudo true;
@@ -10,11 +9,12 @@ BASEDIR="$( cd "$( dirname "$0" )" && pwd)"
 #Load Installation Functions
 source $BASEDIR/install.sh
 
+set -e 
 #Install Tools
 install_homebrew
 install_git
 install_commandline_tools
-install_java
+install_programming_tools
 install_chrome
 install_virtualization
 install_utilities
