@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
+BASE_DIR="$( cd "$( dirname "$0" )" && pwd)"
+
 function install_homebrew() {
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    brew doctor
-    brew tap homebrew/completions
-    brew tap hombrew/core
     brew doctor
     if [ "$?" -ne 0 ]; then 
         echo "Something is wrong with brew! ^^^^^^^^^^^"
@@ -15,8 +14,8 @@ function install_homebrew() {
 function install_git() {
     brew tap git-duet/tap
     brew install git
-    git clone --depth=1 https://github.com/Bash-it/bash-it.git
-    ./bash_it/install.sh
+    git clone --depth=1 https://github.com/Bash-it/bash-it.git $BASE_DIR/../bash_it
+    $BASE_DIR/../bash_it/install.sh -s
     brew install git-duet
     brew install git-secrets
 }
