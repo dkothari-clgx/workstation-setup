@@ -29,6 +29,7 @@ function install_programming_tools() {
     npm install --global grunt-cli
     npm install --global gulp-cli
     brew install go
+    brew install ruby
     brew install rbenv
 }
 
@@ -40,7 +41,7 @@ function install_cloudfoundry_tools() {
     brew tap cloudfoundry/tap
     brew install cf-cli
     brew install bosh-cli
-    sudo gem install cf-uaac
+    gem install cf-uaac
 }
 
 function install_virtualization() {
