@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+  kafka:
+    image: landoop/fast-data-dev:1.1.0
+    ports:
+      - "2181:2181"
+      - "9092:9092"
+      - "3030:3030"
