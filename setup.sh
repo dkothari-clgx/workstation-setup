@@ -9,9 +9,8 @@ BASEDIR="$( cd "$( dirname "$0" )" && pwd)"
 #Load Installation Functions
 source $BASEDIR/install.sh
 
-set -e 
 #Install Tools
-install_homebrew
+retry "install_homebrew" 2
 install_git
 install_commandline_tools
 install_programming_tools
